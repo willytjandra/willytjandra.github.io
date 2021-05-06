@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Willy Tjandra
+title: TJANDRA Things
+author: Willy Tjandra
 email: willy.tjandra@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Notes for my future self
@@ -31,22 +32,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
-timezone: Australia/Brisbane
+timezone: "Australia/Brisbane"
 
-###################################
-# Site Owner configuration
-####################################
-#
-owner:
-  name: Willy Tjandra
-  avatar:
-  job: "Software Developer @ Telstra Purple"
-  bio: "Notes for my future self"
-  #email: paul@mcilreavy.com
-  disqus-shortname: willytjandra
+social-network-links:
+  email: "willy.tjandra@gmail.com"
   github: willytjandra
-  stackoverflow: 13524082/willy-tjandra
   linkedin: willytjandra
+  stackoverflow: "13524082/willy-tjandra"
 
 
 # Exclude from processing.
